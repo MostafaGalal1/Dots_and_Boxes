@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1639605339 source:c:\users\fcc\desktop\pvr\dots\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<dos.h>
+	<dir.h>
+
