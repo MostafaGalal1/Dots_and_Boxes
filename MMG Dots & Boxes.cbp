@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MMG Dots &amp; Boxes" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MMG Dots &amp; Boxes" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MMG Dots &amp; Boxes" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SDL2/include/SDL2" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="SDL2/bin" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add directory="SDL2/lib" />
+		</Linker>
+		<Unit filename="1.png" />
+		<Unit filename="1g.png" />
+		<Unit filename="2.png" />
+		<Unit filename="2g.png" />
+		<Unit filename="2x2.png" />
+		<Unit filename="2x2grid.png" />
+		<Unit filename="3.png" />
+		<Unit filename="3g.png" />
+		<Unit filename="4.png" />
+		<Unit filename="4g.png" />
+		<Unit filename="5.png" />
+		<Unit filename="5g.png" />
+		<Unit filename="5x5.png" />
+		<Unit filename="5x5grid.png" />
+		<Unit filename="AI.h" />
+		<Unit filename="Leaderboard.h" />
+		<Unit filename="MMG Dots &amp; Boxes.cbp" />
+		<Unit filename="Rank.h" />
+		<Unit filename="Save.h" />
+		<Unit filename="back.png" />
+		<Unit filename="backg.png" />
+		<Unit filename="background.png" />
+		<Unit filename="backk.png" />
+		<Unit filename="cancelb.png" />
+		<Unit filename="cancelbg.png" />
+		<Unit filename="cancell.png" />
+		<Unit filename="cancellg.png" />
+		<Unit filename="computerwins.png" />
+		<Unit filename="confirm.png" />
+		<Unit filename="confirmg.png" />
+		<Unit filename="easy.png" />
+		<Unit filename="exit.png" />
+		<Unit filename="exitg.png" />
+		<Unit filename="exitt.png" />
+		<Unit filename="exittg.png" />
+		<Unit filename="fileload.png" />
+		<Unit filename="filesave.png" />
+		<Unit filename="game.h" />
+		<Unit filename="gamedifficulty.png" />
+		<Unit filename="gamegrid.png" />
+		<Unit filename="gamemode.png" />
+		<Unit filename="hard.png" />
+		<Unit filename="home.png" />
+		<Unit filename="homeg.png" />
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="klj.png" />
+		<Unit filename="leaderboard.png" />
+		<Unit filename="left.png" />
+		<Unit filename="leftg.png" />
+		<Unit filename="lexit.png" />
+		<Unit filename="lexitg.png" />
+		<Unit filename="lmainmenu.png" />
+		<Unit filename="lmainmenug.png" />
+		<Unit filename="lmainmwnu.png" />
+		<Unit filename="loadb.png" />
+		<Unit filename="loadbg.png" />
+		<Unit filename="loadgame.png" />
+		<Unit filename="loadgameg.png" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="newgame.png" />
+		<Unit filename="newgameg.png" />
+		<Unit filename="next.png" />
+		<Unit filename="nextg.png" />
+		<Unit filename="nextk.png" />
+		<Unit filename="ocrr.TTF" />
+		<Unit filename="oneplayer.png" />
+		<Unit filename="playermenu.h" />
+		<Unit filename="playeronename.png" />
+		<Unit filename="playeronewins.png" />
+		<Unit filename="playertwoname.png" />
+		<Unit filename="playertwowins.png" />
+		<Unit filename="ranking.png" />
+		<Unit filename="rankingg.png" />
+		<Unit filename="redo.png" />
+		<Unit filename="redog.png" />
+		<Unit filename="right.png" />
+		<Unit filename="rightg.png" />
+		<Unit filename="save.png" />
+		<Unit filename="saveb.png" />
+		<Unit filename="savebg.png" />
+		<Unit filename="saveg.png" />
+		<Unit filename="savlo.png" />
+		<Unit filename="submenu.png" />
+		<Unit filename="submenug.png" />
+		<Unit filename="subrank.png" />
+		<Unit filename="subsurf.png" />
+		<Unit filename="suspend.png" />
+		<Unit filename="textbox1.png" />
+		<Unit filename="textbox2.png" />
+		<Unit filename="textboxn.png" />
+		<Unit filename="tie.png" />
+		<Unit filename="title.png" />
+		<Unit filename="twoplayer.png" />
+		<Unit filename="undo.png" />
+		<Unit filename="undog.png" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
