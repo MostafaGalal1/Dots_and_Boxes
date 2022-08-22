@@ -1,1 +1,1 @@
-# Dots-and-Boxes
+Game that simulates dots and boxes
